@@ -209,6 +209,10 @@ body {
 #contact .container {
 	display: flex;
 }
+.coordonnées {
+	padding-top: 150px;
+	font-size: 15px;
+}
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
