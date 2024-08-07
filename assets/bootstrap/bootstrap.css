@@ -121,11 +121,11 @@ h2, .h2 {
   }
 }
 
-h3, .h3 {
+h2, .h2 {
   font-size: calc(1.3rem + 0.6vw);
 }
 @media (min-width: 1200px) {
-  h3, .h3 {
+  h2, .h2 {
     font-size: 1.75rem;
   }
 }
@@ -134,7 +134,7 @@ h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
 @media (min-width: 1200px) {
-  h4, .h4 {
+  h6, .h6 {
     font-size: 1.5rem;
   }
 }
@@ -143,7 +143,7 @@ h5, .h5 {
   font-size: 1.25rem;
 }
 
-h6, .h6 {
+h4, .h4 {
   font-size: 1rem;
 }
 
@@ -3978,7 +3978,7 @@ textarea.form-control-lg {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #BEB45A;
 }
 
 .nav-fill > .nav-link,
@@ -5556,7 +5556,9 @@ textarea.form-control-lg {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .modal-footer {
@@ -6932,7 +6934,8 @@ textarea.form-control-lg {
 }
 
 .w-100 {
-  width: 100% !important;
+  max-width: 1903px;
+  max-height: 880px;
 }
 
 .w-auto {
