@@ -100,18 +100,14 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-/* premier changement effectuer 
-	.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
-	border-radius:0 ;
-}*/
 
-.nav-link:hover{
-	color: #fff;
+	.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #000 !important;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
+
 .active-tag{
 	background-color: #BEB45A!important; 
 	border-radius:0 ;
