@@ -6934,6 +6934,7 @@ textarea.form-control-lg {
 }
 
 .w-100 {
+  width: 100%;
   max-width: 1903px;
   max-height: 880px;
 }
